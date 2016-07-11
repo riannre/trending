@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{467A203B-6332-434C-9457-C00C3607FAE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Laundry.My.MyApplication</StartupObject>
+    <RootNamespace>Laundry</RootNamespace>
+    <AssemblyName>Laundry</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Laundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Laundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrLapJasa.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrLapJasa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrLapOrder.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrLapOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrLapPelanggan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrLapPelanggan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrLapTransaksi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrLapTransaksi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrLapTransaksiRekap.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrLapTransaksiRekap.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrNotaOrder.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrNotaOrder.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrNotaTransaksi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrNotaTransaksi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmCetakLapOrder.Designer.vb">
+      <DependentUpon>FrmCetakLapOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCetakLapOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCetakLapTransaksi.Designer.vb">
+      <DependentUpon>FrmCetakLapTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCetakLapTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataJasa.Designer.vb">
+      <DependentUpon>FrmDataJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataOrder.Designer.vb">
+      <DependentUpon>FrmDataOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDataPelanggan.Designer.vb">
+      <DependentUpon>FrmDataPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDataPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGantiPassword.Designer.vb">
+      <DependentUpon>FrmGantiPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGantiPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJasa.Designer.vb">
+      <DependentUpon>FrmJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapJasa.Designer.vb">
+      <DependentUpon>FrmLapJasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapJasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapOrder.Designer.vb">
+      <DependentUpon>FrmLapOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapPelanggan.Designer.vb">
+      <DependentUpon>FrmLapPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapTransaksi.Designer.vb">
+      <DependentUpon>FrmLapTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapTransaksiRekap.Designer.vb">
+      <DependentUpon>FrmLapTransaksiRekap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapTransaksiRekap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuUtama.Designer.vb">
+      <DependentUpon>FrmMenuUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaOrder.Designer.vb">
+      <DependentUpon>FrmNotaOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotaTransaksi.Designer.vb">
+      <DependentUpon>FrmNotaTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotaTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.Designer.vb">
+      <DependentUpon>FrmOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPelanggan.Designer.vb">
+      <DependentUpon>FrmPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPetugas.Designer.vb">
+      <DependentUpon>FrmPetugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPetugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPewangi.Designer.vb">
+      <DependentUpon>FrmPewangi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPewangi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransaksi.Designer.vb">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModKoneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrLapJasa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLapJasa.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrLapOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLapOrder.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrLapPelanggan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLapPelanggan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrLapTransaksi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLapTransaksi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrLapTransaksiRekap.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrLapTransaksiRekap.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrNotaOrder.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrNotaOrder.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrNotaTransaksi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrNotaTransaksi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCetakLapOrder.resx">
+      <DependentUpon>FrmCetakLapOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCetakLapTransaksi.resx">
+      <DependentUpon>FrmCetakLapTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataJasa.resx">
+      <DependentUpon>FrmDataJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataOrder.resx">
+      <DependentUpon>FrmDataOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDataPelanggan.resx">
+      <DependentUpon>FrmDataPelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGantiPassword.resx">
+      <DependentUpon>FrmGantiPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJasa.resx">
+      <DependentUpon>FrmJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapJasa.resx">
+      <DependentUpon>FrmLapJasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapOrder.resx">
+      <DependentUpon>FrmLapOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapPelanggan.resx">
+      <DependentUpon>FrmLapPelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapTransaksi.resx">
+      <DependentUpon>FrmLapTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapTransaksiRekap.resx">
+      <DependentUpon>FrmLapTransaksiRekap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuUtama.resx">
+      <DependentUpon>FrmMenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaOrder.resx">
+      <DependentUpon>FrmNotaOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotaTransaksi.resx">
+      <DependentUpon>FrmNotaTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPelanggan.resx">
+      <DependentUpon>FrmPelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPetugas.resx">
+      <DependentUpon>FrmPetugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPewangi.resx">
+      <DependentUpon>FrmPewangi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransaksi.resx">
+      <DependentUpon>FrmTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

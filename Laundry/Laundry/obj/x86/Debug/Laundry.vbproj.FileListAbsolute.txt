@@ -1,0 +1,59 @@
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\bin\Debug\Laundry.exe
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\bin\Debug\Laundry.pdb
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\bin\Debug\Laundry.xml
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPetugas.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.Resources.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.vbproj.GenerateResource.Cache
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.exe
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.xml
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.pdb
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPelanggan.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmJasa.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPewangi.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataPelanggan.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmOrder.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataJasa.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmTransaksi.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataOrder.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.vbprojResolveAssemblyReference.cache
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\bin\Debug\Laundry.exe.config
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmNotaOrder.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmNotaTransaksi.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmCetakLapOrder.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapJasa.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapOrder.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapPelanggan.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapTransaksi.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmCetakLapTransaksi.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapTransaksiRekap.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmMenuUtama.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmGantiPassword.resources
+D:\Visual Basic\VB 2010\Program Aku\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLogin.resources
+D:\Laundry\Laundry\bin\Debug\Laundry.exe.config
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.exe
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.xml
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.pdb
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.vbprojResolveAssemblyReference.cache
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmCetakLapOrder.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmCetakLapTransaksi.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataJasa.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataOrder.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmDataPelanggan.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmGantiPassword.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmJasa.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapJasa.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapOrder.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapPelanggan.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapTransaksi.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLapTransaksiRekap.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmLogin.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmMenuUtama.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmNotaOrder.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmNotaTransaksi.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmOrder.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPelanggan.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPetugas.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmPewangi.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.FrmTransaksi.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.Resources.resources
+D:\Laundry\Laundry\obj\x86\Debug\Laundry.vbproj.GenerateResource.Cache
